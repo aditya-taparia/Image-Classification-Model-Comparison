@@ -9,5 +9,7 @@ The dataset used to train the model is [Food101](https://www.tensorflow.org/data
 
 ### Model Architecture:
 The architecture of the model is based on [MobileNetV3](https://arxiv.org/abs/1905.02244v5).
+- **Input:** This model takes images as input. Inputs are expected to be 3-channel RGB color images of size 224 x 224, scaled to [0, 1].
+- **Output:** A probability vector of dimension 101, corresponding to 101 food dishes in the labelmap.
 
 ### Application UI Design:
